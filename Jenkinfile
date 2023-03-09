@@ -1,7 +1,7 @@
 pipeline {
     environment {
         IMAGEN = "oscarlucas/djangoic"
-        LOGIN = 'USER_DOCKERHUB'
+        LOGIN = 'DOCKERHUB'
     }
     agent none
     stages {
